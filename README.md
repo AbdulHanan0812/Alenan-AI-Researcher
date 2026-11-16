@@ -3,7 +3,7 @@
 Alenan AI Researcher is an autonomous, multi-agent AI research system built to automate deep
 web intelligence, content extraction, structured report synthesis, and critical quality evaluation—all
 unified inside an interactive Streamlit studio.
-Live Demo: [Launch Alenan AI Researcher]((https://alenan-ai-researcher.streamlit.app/))
+Live Demo: [Launch Alenan AI Researcher] https://alenan-ai-researcher.streamlit.app/
 
 # 2. System Architecture & Multi-Agent Workflow
 The platform operates on a deterministic multi-agent orchestration pipeline powered by LangGraph
