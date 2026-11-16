@@ -3,6 +3,26 @@ import streamlit as st
 
 from pipline import run_Agent_pipline  # your file is named "pipline.py"
 
+import os
+import streamlit as st
+
+if "GROQ_API_KEY" in st.secrets:
+    os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+if "TAVILY_API_KEY" in st.secrets:
+    os.environ["TAVILY_API_KEY"] = st.secrets["TAVILY_API_KEY"]
+
+
+from pipline import run_Agent_pipline
+
+
+
+
+
+
+
+
+
+
 # ------------------------------------------------------------------ #
 # Page config
 # ------------------------------------------------------------------ #
