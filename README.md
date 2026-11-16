@@ -50,8 +50,4 @@ python -m venv .venv
 source .venv/bin/activate       # macOS/Linux
 ### 3. Install dependencies
 pip install -r requirements.txt
-### 4. Create a .env file in the root directory and add your API keys
-GROQ_API_KEY=your_groq_api_key_here
-TAVILY_API_KEY=your_tavily_api_key_here
-### 5. Run the Streamlit application
-streamlit run app.py
+
